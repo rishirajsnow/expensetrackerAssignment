@@ -72,7 +72,7 @@ class AddExpense {
             } 
             this.addExpense();
             //Update total expenses post each update
-            total.innerText=`dd Expense: $ ${this.getExpenses()}(Total Expences)`;
+            total.innerText=`Add Expense: $ ${this.getExpenses()}(Total Expences)`;
             
         })
     }
